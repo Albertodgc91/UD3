@@ -1,0 +1,58 @@
+#titulo {
+   color: teal;
+}
+#linea1{
+    color:red;
+}
+.destacado{
+    color:yellow;
+}
+#subtitulo{
+    color:blue;
+}
+#co{
+    color: red;
+}
+#Co{
+    color: blue;
+}
+.especial1{
+    color:purple
+}
+.T1{
+    color: blue;
+}
+.especial{
+    color: gold;
+}
+a:first-child{
+    color:red;
+}
+#ST{
+    color:gold;
+}
+#Ta1{
+    color: green;
+}
+
+td:last-child{
+    color:green;
+}
+table{
+   border-collapse: collapse;
+}
+table,th,td{
+    border: 2px solid black;
+}
+div p{
+    color:olive;
+}
+#especial2{
+    color: purple;
+}
+a:last-child{
+    color:green;
+}
+#C1{
+    color:red;
+}
