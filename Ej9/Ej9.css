@@ -1,0 +1,10 @@
+#galeria{
+display: grid;
+grid-template-columns: 180px 180px 180px;
+}
+#galeria img{
+ padding: 5px;
+ margin: 5px;
+ box-shadow:0 0 0 2px gray, 0 0 0 4px white;
+
+}
