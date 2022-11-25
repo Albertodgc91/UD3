@@ -1,0 +1,89 @@
+.titulo{
+font-weight:bold ;
+float: left;
+}
+*{font-family: cursive;}
+ul li:hover p.ayuda {
+    display: block;
+    margin: 0.3em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+  }
+li:last-child{
+    float: right;
+    color: beige;
+}
+li:hover {
+    cursor: pointer;
+    background-color:#ff9;
+     border: color #e6b700 !important;
+}
+li:hover .ayuda {
+    cursor: pointer;
+    visibility: visible;
+}
+.ayuda{
+    visibility: hidden;
+}
+
+ul{
+    list-style-type: none;
+}
+.requerido{
+    color:red;
+}
+ul li label.titulo {
+    text-align: right;
+    width: 100px;
+  }
+  ul li div {
+    margin-left: 110px;
+    overflow: hidden;
+  }
+ 
+
+#nombre{
+display: flex;
+flex-direction: column;
+margin-left: 130px;
+}
+#apellido1{
+    display: flex;
+    margin-left: 130px;
+    flex-direction: column;
+}
+#apellido2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+}
+#direccion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+}
+#codigopostal{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+}
+#municipio{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+}
+#provincia{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+}
+#pais{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+}    
+
+
+ 
